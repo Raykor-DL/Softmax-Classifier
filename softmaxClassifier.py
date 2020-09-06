@@ -293,8 +293,8 @@ if __name__ == '__main__':
     epochs = int(args.epochs)
     learningRate = float(args.learningRate)
     batchSize = int(args.batchSize)
-    regStrength = int(args.regStrength)
-    momentum = int(args.momentum)
+    regStrength = float(args.regStrength)
+    momentum = float(args.momentum)
 
 
     sm = Softmax(epochs=epochs, learningRate=learningRate, batchSize=batchSize,
